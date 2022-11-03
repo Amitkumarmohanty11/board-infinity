@@ -1,4 +1,4 @@
 This file is just for testing purpose.
-create a local repository that can have multiple files and folders.
-create a online repository 
-update the changes from local to online repository.
+Create a local repository that can have multiple files and folders.
+Create a online repository 
+Update the changes from local to online repository.
