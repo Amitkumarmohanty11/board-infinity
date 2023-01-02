@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Including Form</title>
+
+    <style>
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body{
+            background-color: darkgray;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            text-align: center;
+            background-color: rgb(123, 170, 228);
+            max-width: 500px;
+            margin: 50px auto;
+            padding:30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+            
+            
+        }
+        /* Styling form-control Class */
+        .form-control
+         {
+            text-align: left;
+            margin-bottom: 10px;
+
+        }
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Styling form-control input,
+        select, textarea */
+
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 35px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%; 
+        }
+        /* Styling form-control Radio
+        button and Checkbox */
+
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+        /* Styling Button */
+
+        button {
+            background-color: #1f87aa6f;
+            border: 1px solid #777 ;
+            border-radius: 35px;
+            font-family: inherit;
+            font-size: 20px;
+            display: block;
+            width: 100%;
+            margin-top: 40px;
+            margin-bottom: 15px;
+
+
+
+
+        }
+
+        h1{
+            text-shadow: 2px 5px 10px rgb(54, 51, 51);
+        }
+
+        
+
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+        <h1>NEW YEAR EVENT FORM</h1>
+        <form>
+            <div class="form-control">
+
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fmane" placeholder="Enter your name"><br>
+            </div>
+
+
+            <div class="form-control">   
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" placeholder="Select your gender">
+                <option value="male">Select</option>
+                <option value="male">Male</option>
+                <option value="male">Female</option>
+            </select><br>
+        </div>
+
+
+
+            <div class="form-control">  
+
+            <label for="emp">Emp I'd:</label>
+            <input type="text" id="emp" name="unick" placeholder="Enter your I'd"><br>
+
+            </div>
+
+
+            <div class="form-control">
+            <label for="dept">Department:</label>
+            <select id="dept" namr="dept">
+                <option value="Selet dept">Select your Dept.</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="Front End Developer">Front End Developer</option>
+                <option value="Backend Developer">Beckend Developer</option>
+                <option value="Java Developer"> Java Developer</option>
+            </select><br>
+
+            </div>
+
+            <div class="form-control">
+
+            <label for="palce">Chose One Place:</label>
+
+            <label for="CLUB">CLUB.</label>
+            <input type="radio" id="CLUB" name="Party" value="club">
+            <label for="Restaurants">RESTAURANTS.</label>
+            <input type="radio" id="Restaurants" name="Party" value="Restaurants">
+            <label for="pub">PUB.</label>
+            <input type="radio" id="pub" name="Party" value="pub">
+            <label for="hotel">HOTEL.</label>
+            <input type="radio" id="hotel" name="Party" value="hotel"><br>
+
+            </div>
+
+            <div class="form-control">
+            <label for="drink">Will You Drink:</label>
+            <select id="drink" name="dhum">
+                <option value="select">Select</option>
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+            </select><br>
+
+            </div>
+
+
+            <div class="form-control">
+            <label for="drink">Drinks:</label>
+
+            <label for="wine">Wine.</label>
+            <input type="checkbox" id="wine" name="wine" value="drink">
+
+            <label for="Beer">Beer.</label>
+            <input type="checkbox" id="Beer" name="beer" value="drink">
+
+            <label for="rum">Rum.</label>
+            <input type="checkbox" id="rum" name="rum" value="drink">
+
+            <label for="whiskey">Whiskey.</label>
+            <input type="checkbox" id="whiskey" name="whiskey" value="drink"><br>
+            </div>
+
+            <div class="form-control">
+            <label for="comment">Any comments or suggestions:</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea><br>
+        
+            </div>
+            
+
+            <button type="submit" value="submit">
+                Submit
+            </button>
+
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+    
+</body>
+</html>
