@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Flipkart Online Shopping</h1>
+    <h6>Live Workshop and Online Courses!</h6>
+
+
+    <div class="myproducts">
+        <div class="myproducts-gallery">
+            <img src="https://www.junglescout.com/wp-content/uploads/2021/01/product-photo-water-bottle-hero.png"
+             alt="Click Me" onclick="myImageFunction(this)">
+            <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563378212-amazon-echo-dot-3-1563376152.jpg?crop=1xw:1xh;center,top&resize=480:*"
+             alt="Click Me" onclick="myImageFunction(this)">
+             <img src="https://m.media-amazon.com/images/I/71fVoqRC0wL._SL1500_.jpg" 
+             alt="Click Me" onclick="myImageFunction(this)">
+             <img src="https://images.livemint.com/img/2021/02/16/1600x900/FireTV-kW0G--621x414@LiveMint_1613466622676.jpg" 
+             alt="Click Me" onclick="myImageFunction(this)">
+        </div>
+        <div class="image-container">
+            <img id="img-Box" src="https://www.junglescout.com/wp-content/uploads/2021/01/product-photo-water-bottle-hero.png" 
+            alt="Click Me">
+        </div>
+    </div>
+    <script>
+        function myImageFunction(productSmallImg) {
+            var productFullImg = document.getElementById("img-Box");
+            productFullImg.src = productSmallImg.src;
+        }
+    </script>
+</body>
+</html>
