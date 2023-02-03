@@ -1,7 +1,14 @@
-//Function Declaration 
+//Function Declaration  or Statement
 
 //Ex:-
 
+/*
+function a(){
+    console.log("a called");
+}
+a();
+
+*/
 
 /*function nameList(name)
 {
