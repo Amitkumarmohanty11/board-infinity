@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    
+    display: flex;
+    flex-direction: column;
+    height: 14vh;
+    width: 100%vw;
+    
+    text-align: center;
+    border: 1px solid black;
+    background-color: grey;
+    
+}
+.name{
+    float: left;
+    padding-top: 1px;
+    color: aqua;
+
+}
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 5px;
+    padding-top: 8px;
+    
+    
+}
+ul li a{
+    padding: 1px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a:hover{
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.hero_section{
+    
+    background-image: url(img/imgweb.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text_container {
+    color: blueviolet;
+    max-width: 900px;
+    margin: 0;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 72px;
+}
+.black_box{
+    background-color: black;
+    padding: 20px;
+}
+.black_box h2{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.black_box h2 span{
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.bbox{
+    display: grid;
+    gap: 30px;
+    
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    
+    max-width: 1100px;
+    margin: 50px auto;
+    
+}
+.row {margin: 0 -5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.column img{
+    height: 200px;
+    width: 100%;
+
+
+}
+.column {
+    float: left;
+    width: 45%;
+    padding: 0 10px;
+    
+}
+.card{
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+  padding: 16px;
+  text-align:center;
+  background-color: #f1f1f1;
+  transition: 0.2s ease-in-out;
+  
+  
+}
+.card:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+  }
+
+.text_con h3{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+ /* ContactMe*/
+#ContactUs{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+.form-shape input, .form-shape select, .form-shape textarea{
+    width: 92%;
+    padding: 0.5rem;
+ }
+
+
+
+ /* Project*/
+
+
+.project_head{
+    text-align: center;
+    color: red;
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100%vw;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project_head h1{
+    padding: 24px;
+}
+
+.pcard{
+    width: 40%;
+    display: inline-block;
+    
+    background-color: burlywood;
+    border-radius: 10px;
+    margin: 70px;
+    box-shadow: 2px 2px 10px black;
+    transition: 0.2s ease-in-out;
+
+}
+.pcard:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+
+.card_img img{
+    width: 100%;
+    height: 50vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.card_text{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-family: arial;
+}
+.card_text p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card_text img{
+    height: 70px;
+    width: 90px;
+    margin: 5px;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 667px) {
+    body{
+        width:535px ;
+    }
+    .bbox{
+        width: 300px;
+        display:inline;
+    }
+    #ContactUs {
+        width: 535px;
+    }
+    
+}
+
