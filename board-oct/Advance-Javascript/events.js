@@ -22,7 +22,7 @@ setTimeout(function x()
 console.log("end");
 */
 
-console.log("start");
+console.log("star");
 
 setTimeout(function x()
 {
